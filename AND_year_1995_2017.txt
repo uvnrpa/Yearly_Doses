@@ -1,4 +1,5 @@
 % Station Andøya, yearly integrated doses and sampling fraction (0=complete loss of measurements, 1=lossfree measurement
+% The station is drifted by NILU - Norwegian Institute for Air Research (email: tove.svendby@nilu.no)
 % All units except PAR: J/m^2. Units PAR: mol/m^2
 % Calculations and calibrations: Bjørn Johnsen, Statens strålevern (Norwegian Radiation Protection Authority
 % E-mail: Bjorn.Johnsen@nrpa.no
@@ -39,3 +40,4 @@
 2014	  2.5225E+05	  2.5918E+05	  1.7426E+06	  1.4382E+08	  5.3048E+05	  9.2306E+04	  3.7266E+05	  9.4308E+03	  2.6165E+06	  3.6462E+08	  4.9351E+03	0.955
 2015	  2.2402E+05	  2.2699E+05	  1.4908E+06	  1.3381E+08	  4.5752E+05	  7.5496E+04	  3.1100E+05	  8.0857E+03	  2.4145E+06	  3.4253E+08	  4.6508E+03	0.953
 2016	  2.2828E+05	  2.3045E+05	  1.5084E+06	  1.3273E+08	  4.6774E+05	  7.8198E+04	  3.1639E+05	  8.2362E+03	  2.4014E+06	  3.4072E+08	  4.6696E+03	0.998
+2017	  2.6004E+05	  2.7047E+05	  1.8025E+06	  1.5563E+08	  5.5018E+05	  9.2250E+04	  3.7856E+05	  9.7554E+03	  2.8148E+06	  3.9891E+08	  5.4139E+03	0.980
