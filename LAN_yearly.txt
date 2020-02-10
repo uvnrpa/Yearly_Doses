@@ -1,0 +1,45 @@
+% Station Landvik, yearly integrated doses and sampling fraction (0=complete loss of measurements, 1=lossfree measurement
+% The station is drifted by NRPA - Norwegian Radiation Protection Authority (email: Bjorn.Johnsen@dsa.no)
+% All units except PAR: J/m^2. Units PAR: mol/m^2
+% Calculations and calibrations: Bjørn Johnsen, Statens strålevern (Norwegian Radiation Protection Authority
+% E-mail: Bjorn.Johnsen@dsa.no
+%
+% Actionspectra:
+% CIE1987: Erythema action spectrum: A.F. McKinlay, A.F. and B.L. Diffey, A reference action spectrum for ultraviolet induced erythema in human skin", CIE Research Note, 6(1), 17-22, 1987
+% CIE1998: Erythema action spectrum: Commission Internationale de l’Eclairage (1998) Erythema Reference Action Spectrum and Standard Erythema Dose. CIE S007E-1998. CIE Central Bureau, Vienna, Austria
+% UVB: ISO 21348 Definitions of Solar Irradiance Spectral Categories (280<=Wl<315 nm)
+% UVA: ISO 21348 Definitions of Solar Irradiance Spectral Categories (315<=Wl<400 nm)
+% NMSC: ISO/FDIS 28077:2016E Photocarcinogenesis Action Spectrum, (Non-Melanoma Skin Cancers, NMSC). CIE Central Bureau, Vienna
+% DNA: R. B. Setlow, The wavelengths in sunlight effective in producing skin cancer: a theoretical analysis", Proc. Nat. Acad. Sci., USA, 71 , No. 9,  pp. 3363-3366, 1974. Converted from effect per quantum to effect per energy. Downloaded from: Downloaded from: http://uv.biospherical.com/Version2/doserates/SetlowTUV.txt
+% VITD: CIE 174:2006, Action spectrum for the conversion of 7-DH7 to previtamin D3 in human skin
+% ANCHOVY: Action spectrum for damage to eggs and larvae of northern anchovy. Spectrum sugge and sted by: J.H. Hunter, J.H. Taylor, and H.G. Moser, "Effect of ultraviolet irradiation on eggs and larvae of the northern anchovy, Engraulis mordax, and the pacific mackerel, Scomber japonicus, during the embryonic stage", Photochemistry and Photobiology, 29, 325-338, 1979. Downloaded from: http://uv.biospherical.com/Version2/doserates/Hunter.txt
+% FLINTPLANT: Action spectrum for growth responses of plants. Action spectrum suggested by: S. D. Flint and M. M. Caldwell, "A biological spectral weighting function for ozone depletion research with higher plants", Physiologia Plantarum, 117,137-144, 2003. Downloaded from: http://uv.biospherical.com/Version2/doserates/Flint.txt
+% HEP: A. Brun & B. Hamre. Proposed action spectrum for Hematopoetic porfyri, HEP
+% PAR: Photosynthetic active radiation, 400-700 nm
+%
+% Columns: Year	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
+1995	  3.8993E+05	  3.9312E+05	  2.6850E+06	  2.0362E+08	  8.1827E+05	  1.4948E+05	  5.9080E+05	  1.4504E+04	  3.7346E+06	  5.4959E+08	  7.6583E+03	0.000
+1996	  4.1459E+05	  4.1756E+05	  2.9693E+06	  2.0044E+08	  8.8462E+05	  1.6559E+05	  6.6254E+05	  1.5744E+04	  3.7157E+06	  5.1736E+08	  7.0992E+03	0.913
+1997	  4.2386E+05	  4.2691E+05	  3.0281E+06	  2.0530E+08	  9.0491E+05	  1.7139E+05	  6.8100E+05	  1.6104E+04	  3.7962E+06	  5.3663E+08	  7.3835E+03	0.983
+1998	  3.2771E+05	  3.3033E+05	  2.2772E+06	  1.7239E+08	  6.8827E+05	  1.2405E+05	  4.9835E+05	  1.2196E+04	  3.1522E+06	  4.5128E+08	  6.2029E+03	0.988
+1999	  3.6558E+05	  3.6839E+05	  2.5721E+06	  1.8415E+08	  7.7445E+05	  1.4431E+05	  5.7309E+05	  1.3761E+04	  3.3855E+06	  4.8390E+08	  6.6667E+03	0.975
+2000	  3.7041E+05	  3.7321E+05	  2.6295E+06	  1.8226E+08	  7.8782E+05	  1.4781E+05	  5.8671E+05	  1.4020E+04	  3.3649E+06	  4.8118E+08	  6.6691E+03	0.999
+2001	  3.7912E+05	  3.8207E+05	  2.6663E+06	  1.9184E+08	  8.0234E+05	  1.4866E+05	  5.9134E+05	  1.4256E+04	  3.5250E+06	  5.0845E+08	  7.0437E+03	0.997
+2002	  3.7035E+05	  3.7317E+05	  2.6235E+06	  1.8373E+08	  7.8684E+05	  1.4736E+05	  5.8493E+05	  1.3994E+04	  3.3852E+06	  4.8897E+08	  6.7971E+03	0.998
+2003	  3.8013E+05	  3.8302E+05	  2.6923E+06	  1.9058E+08	  8.0665E+05	  1.4954E+05	  5.9717E+05	  1.4328E+04	  3.5046E+06	  5.1101E+08	  7.1238E+03	0.985
+2004	  3.9380E+05	  3.9695E+05	  2.7680E+06	  1.9622E+08	  8.3429E+05	  1.5683E+05	  6.1655E+05	  1.4861E+04	  3.6177E+06	  5.2063E+08	  7.2426E+03	0.999
+2005	  3.9881E+05	  4.0203E+05	  2.7999E+06	  1.9791E+08	  8.4506E+05	  1.5934E+05	  6.2453E+05	  1.5056E+04	  3.6530E+06	  5.2755E+08	  7.3556E+03	0.852
+2006	  3.9413E+05	  3.9736E+05	  2.7405E+06	  2.0067E+08	  8.3116E+05	  1.5531E+05	  6.0952E+05	  1.4794E+04	  3.6880E+06	  5.2588E+08	  7.2500E+03	1.000
+2007	  3.9221E+05	  3.9535E+05	  2.7618E+06	  1.9399E+08	  8.3202E+05	  1.5718E+05	  6.1646E+05	  1.4829E+04	  3.5800E+06	  5.1850E+08	  7.2465E+03	1.000
+2008	  4.1165E+05	  4.1501E+05	  2.8928E+06	  2.0300E+08	  8.7350E+05	  1.6662E+05	  6.4869E+05	  1.5581E+04	  3.7463E+06	  5.4636E+08	  7.6595E+03	1.000
+2009	  4.0236E+05	  4.0556E+05	  2.8294E+06	  1.9692E+08	  8.5417E+05	  1.6298E+05	  6.3529E+05	  1.5246E+04	  3.6429E+06	  5.1595E+08	  7.1374E+03	0.988
+2010	  4.0240E+05	  4.0568E+05	  2.7943E+06	  2.0610E+08	  8.4702E+05	  1.5640E+05	  6.1751E+05	  1.5070E+04	  3.7901E+06	  5.3087E+08	  7.2628E+03	1.000
+2011	  3.8163E+05	  3.8466E+05	  2.6857E+06	  1.8777E+08	  8.0944E+05	  1.5306E+05	  6.0003E+05	  1.4437E+04	  3.4730E+06	  4.8982E+08	  6.7678E+03	1.000
+2012	  3.9080E+05	  3.9386E+05	  2.7535E+06	  1.9300E+08	  8.2838E+05	  1.5512E+05	  6.1236E+05	  1.4765E+04	  3.5702E+06	  4.9803E+08	  6.8426E+03	0.991
+2013	  3.9227E+05	  3.9551E+05	  2.7294E+06	  1.9934E+08	  8.2679E+05	  1.5367E+05	  6.0408E+05	  1.4723E+04	  3.6697E+06	  5.2062E+08	  7.1889E+03	0.997
+2014	  3.9713E+05	  4.0018E+05	  2.8148E+06	  1.9515E+08	  8.4364E+05	  1.5775E+05	  6.2546E+05	  1.5030E+04	  3.6082E+06	  5.1146E+08	  7.0763E+03	0.997
+2015	  3.8790E+05	  3.9108E+05	  2.7013E+06	  2.0035E+08	  8.1628E+05	  1.4902E+05	  5.9260E+05	  1.4504E+04	  3.6759E+06	  5.2909E+08	  7.3333E+03	1.000
+2016	  3.8149E+05	  3.8414E+05	  2.7372E+06	  1.8875E+08	  8.1183E+05	  1.4739E+05	  6.0245E+05	  1.4403E+04	  3.4871E+06	  4.8154E+08	  6.5550E+03	1.000
+2017	  3.7900E+05	  3.8220E+05	  2.6759E+06	  1.8877E+08	  8.0400E+05	  1.4956E+05	  5.9298E+05	  1.4325E+04	  3.4833E+06	  5.0034E+08	  6.9193E+03	0.995
+2018	  4.2129E+05	  4.2483E+05	  2.9652E+06	  2.0131E+08	  8.9685E+05	  1.7303E+05	  6.6850E+05	  1.6065E+04	  3.7467E+06	  5.2150E+08	  7.1722E+03	0.960
+2019	  3.7438E+05	  3.7754E+05	  2.6376E+06	  1.8625E+08	  7.9362E+05	  1.4731E+05	  5.8358E+05	  1.4140E+04	  3.4428E+06	  4.8596E+08	  6.6989E+03	0.976
