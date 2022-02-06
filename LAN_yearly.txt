@@ -1,45 +1,58 @@
 % Station Landvik, yearly integrated doses and sampling fraction (0=complete loss of measurements, 1=lossfree measurement
-% The station is drifted by NRPA - Norwegian Radiation Protection Authority (email: Bjorn.Johnsen@dsa.no)
+% The station is drifted by DSA (former NRPA) - Norwegian Authority of Radiation and Nuclear Safety (email: Bjorn.Johnsen@dsa.no)
 % All units except PAR: J/m^2. Units PAR: mol/m^2
-% Calculations and calibrations: Bj�rn Johnsen, Statens str�levern (Norwegian Radiation Protection Authority
+% Calculations and calibrations: Bjørn Johnsen, Norwegian Authority of Radiation and Nuclear Safety
 % E-mail: Bjorn.Johnsen@dsa.no
 %
 % Actionspectra:
 % CIE1987: Erythema action spectrum: A.F. McKinlay, A.F. and B.L. Diffey, A reference action spectrum for ultraviolet induced erythema in human skin", CIE Research Note, 6(1), 17-22, 1987
-% CIE1998: Erythema action spectrum: Commission Internationale de l�Eclairage (1998) Erythema Reference Action Spectrum and Standard Erythema Dose. CIE S007E-1998. CIE Central Bureau, Vienna, Austria
+% CIE1998: Erythema action spectrum: Commission Internationale de l’Eclairage (1998) Erythema Reference Action Spectrum and Standard Erythema Dose. CIE S007E-1998. CIE Central Bureau, Vienna, Austria
 % UVB: ISO 21348 Definitions of Solar Irradiance Spectral Categories (280<=Wl<315 nm)
 % UVA: ISO 21348 Definitions of Solar Irradiance Spectral Categories (315<=Wl<400 nm)
 % NMSC: ISO/FDIS 28077:2016E Photocarcinogenesis Action Spectrum, (Non-Melanoma Skin Cancers, NMSC). CIE Central Bureau, Vienna
-% DNA: R. B. Setlow, The wavelengths in sunlight effective in producing skin cancer: a theoretical analysis", Proc. Nat. Acad. Sci., USA, 71 , No. 9,  pp. 3363-3366, 1974. Converted from effect per quantum to effect per energy. Downloaded from: Downloaded from: http://uv.biospherical.com/Version2/doserates/SetlowTUV.txt
+% DNA: R. B. Setlow, The wavelengths in sunlight effective in producing skin cancer: a theoretical analysis", Proc. Nat. Acad. Sci., USA, 71 , No. 9,  pp. 3363-3366, 1974. Converted from effect per quantum to effect per energy. Downloaded from: http://uv.biospherical.com/Version2/doserates/SetlowTUV.txt
 % VITD: CIE 174:2006, Action spectrum for the conversion of 7-DH7 to previtamin D3 in human skin
 % ANCHOVY: Action spectrum for damage to eggs and larvae of northern anchovy. Spectrum sugge and sted by: J.H. Hunter, J.H. Taylor, and H.G. Moser, "Effect of ultraviolet irradiation on eggs and larvae of the northern anchovy, Engraulis mordax, and the pacific mackerel, Scomber japonicus, during the embryonic stage", Photochemistry and Photobiology, 29, 325-338, 1979. Downloaded from: http://uv.biospherical.com/Version2/doserates/Hunter.txt
 % FLINTPLANT: Action spectrum for growth responses of plants. Action spectrum suggested by: S. D. Flint and M. M. Caldwell, "A biological spectral weighting function for ozone depletion research with higher plants", Physiologia Plantarum, 117,137-144, 2003. Downloaded from: http://uv.biospherical.com/Version2/doserates/Flint.txt
 % HEP: A. Brun & B. Hamre. Proposed action spectrum for Hematopoetic porfyri, HEP
 % PAR: Photosynthetic active radiation, 400-700 nm
+% Gaps in measurements have been filled with ancillary measurement data (Finse), or clear sky modelled data, adjusted for cloud influence. Source of UV-cloud modification factors: Listed below for the respective station and period
+% STRÅNG-based data (http://strang.smhi.se/extraction/index.php) period: 1901	
+% Octa-based data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/, period: 1902	
+% Solar Light SL-501 UV-Biometer measurements (Finse only), from an instrument operated by DSA, period: 1900	- 1900
+% Pyranometer-based gapfilling for stations Landvik, Kise, Trondheim (Kvithamar), Tromsø (Holt), Andøya (Sortland), Blindern (Aas): Pyranometer data provided by Agrometeorology Norway (LMT), http://lmt.bioforsk.no. Period: 1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	2021	
+% Pyranometer-based gapfilling for station Bergen, period 1995-2021: Pyranometer data from the Radiation Observatory at the University of Bergen and clear sky modelled global radiation for all stations is provided by Jan-Asle Olseth (Jan.Olseth@uib.no).
 %
-% Columns: Year	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
+% Pyranometer-based gapfilling for the stations Trondheim (Gloshaugen), Blindern, period 2017-2021: Pyranometer data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/
+% Pyranometer-based gapfilling for station Finse, period 2018-2021: Pyranometer data from the Finse Eco-Hydrological Observatory, provided by Norbert Pirk (norbert.pirk@geo.uio.no)
+% Pyranometer-based gapfilling for station Ny-Ålesund, period 1995-2021: (1): Maturilli, Marion; Herber, Andreas; König-Langlo, Gert (2014): Basic and other measurements of radiation from the Baseline Surface Radiation Network (BSRN) Station Ny-Ålesund in the years 1992 to 2013, reference list of 253 datasets. PANGAEA, https://doi.org/10.1594/PANGAEA.150000. (2): Maturilli, Marion (2020): Basic and other measurements of radiation at station Ny-Ålesund (2006-05 et seq). Alfred Wegener Institute - Research Unit Potsdam, PANGAEA, https://doi.org/10.1594/PANGAEA.914927
+% Seasonally mean period: 1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	
+%
+% Columns: Year	Mon	Day	Daynum	Hour	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
 1995	  3.8993E+05	  3.9312E+05	  2.6850E+06	  2.0362E+08	  8.1827E+05	  1.4948E+05	  5.9080E+05	  1.4504E+04	  3.7346E+06	  5.4959E+08	  7.6583E+03	0.000
-1996	  4.1459E+05	  4.1756E+05	  2.9693E+06	  2.0044E+08	  8.8462E+05	  1.6559E+05	  6.6254E+05	  1.5744E+04	  3.7157E+06	  5.1736E+08	  7.0992E+03	0.913
-1997	  4.2386E+05	  4.2691E+05	  3.0281E+06	  2.0530E+08	  9.0491E+05	  1.7139E+05	  6.8100E+05	  1.6104E+04	  3.7962E+06	  5.3663E+08	  7.3835E+03	0.983
-1998	  3.2771E+05	  3.3033E+05	  2.2772E+06	  1.7239E+08	  6.8827E+05	  1.2405E+05	  4.9835E+05	  1.2196E+04	  3.1522E+06	  4.5128E+08	  6.2029E+03	0.988
-1999	  3.6558E+05	  3.6839E+05	  2.5721E+06	  1.8415E+08	  7.7445E+05	  1.4431E+05	  5.7309E+05	  1.3761E+04	  3.3855E+06	  4.8390E+08	  6.6667E+03	0.975
+1996	  4.1439E+05	  4.1736E+05	  2.9710E+06	  1.9999E+08	  8.8457E+05	  1.6565E+05	  6.6293E+05	  1.5747E+04	  3.7074E+06	  5.1583E+08	  7.0753E+03	0.913
+1997	  4.2387E+05	  4.2693E+05	  3.0288E+06	  2.0527E+08	  9.0501E+05	  1.7142E+05	  6.8116E+05	  1.6107E+04	  3.7956E+06	  5.3633E+08	  7.3786E+03	0.983
+1998	  3.2777E+05	  3.3039E+05	  2.2783E+06	  1.7238E+08	  6.8847E+05	  1.2411E+05	  4.9860E+05	  1.2201E+04	  3.1518E+06	  4.5114E+08	  6.2001E+03	0.988
+1999	  3.6547E+05	  3.6828E+05	  2.5726E+06	  1.8395E+08	  7.7436E+05	  1.4429E+05	  5.7322E+05	  1.3760E+04	  3.3823E+06	  4.8286E+08	  6.6508E+03	0.975
 2000	  3.7041E+05	  3.7321E+05	  2.6295E+06	  1.8226E+08	  7.8782E+05	  1.4781E+05	  5.8671E+05	  1.4020E+04	  3.3649E+06	  4.8118E+08	  6.6691E+03	0.999
 2001	  3.7912E+05	  3.8207E+05	  2.6663E+06	  1.9184E+08	  8.0234E+05	  1.4866E+05	  5.9134E+05	  1.4256E+04	  3.5250E+06	  5.0845E+08	  7.0437E+03	0.997
 2002	  3.7035E+05	  3.7317E+05	  2.6235E+06	  1.8373E+08	  7.8684E+05	  1.4736E+05	  5.8493E+05	  1.3994E+04	  3.3852E+06	  4.8897E+08	  6.7971E+03	0.998
-2003	  3.8013E+05	  3.8302E+05	  2.6923E+06	  1.9058E+08	  8.0665E+05	  1.4954E+05	  5.9717E+05	  1.4328E+04	  3.5046E+06	  5.1101E+08	  7.1238E+03	0.985
-2004	  3.9380E+05	  3.9695E+05	  2.7680E+06	  1.9622E+08	  8.3429E+05	  1.5683E+05	  6.1655E+05	  1.4861E+04	  3.6177E+06	  5.2063E+08	  7.2426E+03	0.999
-2005	  3.9881E+05	  4.0203E+05	  2.7999E+06	  1.9791E+08	  8.4506E+05	  1.5934E+05	  6.2453E+05	  1.5056E+04	  3.6530E+06	  5.2755E+08	  7.3556E+03	0.852
+2003	  3.8006E+05	  3.8296E+05	  2.6928E+06	  1.9051E+08	  8.0656E+05	  1.4949E+05	  5.9715E+05	  1.4327E+04	  3.5034E+06	  5.1035E+08	  7.1133E+03	0.985
+2004	  3.9379E+05	  3.9695E+05	  2.7679E+06	  1.9621E+08	  8.3428E+05	  1.5683E+05	  6.1655E+05	  1.4861E+04	  3.6176E+06	  5.2062E+08	  7.2425E+03	0.999
+2005	  3.9419E+05	  3.9738E+05	  2.7728E+06	  1.9557E+08	  8.3563E+05	  1.5755E+05	  6.1804E+05	  1.4896E+04	  3.6082E+06	  5.1860E+08	  7.2236E+03	0.852
 2006	  3.9413E+05	  3.9736E+05	  2.7405E+06	  2.0067E+08	  8.3116E+05	  1.5531E+05	  6.0952E+05	  1.4794E+04	  3.6880E+06	  5.2588E+08	  7.2500E+03	1.000
 2007	  3.9221E+05	  3.9535E+05	  2.7618E+06	  1.9399E+08	  8.3202E+05	  1.5718E+05	  6.1646E+05	  1.4829E+04	  3.5800E+06	  5.1850E+08	  7.2465E+03	1.000
 2008	  4.1165E+05	  4.1501E+05	  2.8928E+06	  2.0300E+08	  8.7350E+05	  1.6662E+05	  6.4869E+05	  1.5581E+04	  3.7463E+06	  5.4636E+08	  7.6595E+03	1.000
-2009	  4.0236E+05	  4.0556E+05	  2.8294E+06	  1.9692E+08	  8.5417E+05	  1.6298E+05	  6.3529E+05	  1.5246E+04	  3.6429E+06	  5.1595E+08	  7.1374E+03	0.988
+2009	  4.0238E+05	  4.0559E+05	  2.8302E+06	  1.9687E+08	  8.5428E+05	  1.6298E+05	  6.3544E+05	  1.5248E+04	  3.6423E+06	  5.1543E+08	  7.1291E+03	0.988
 2010	  4.0240E+05	  4.0568E+05	  2.7943E+06	  2.0610E+08	  8.4702E+05	  1.5640E+05	  6.1751E+05	  1.5070E+04	  3.7901E+06	  5.3087E+08	  7.2628E+03	1.000
 2011	  3.8163E+05	  3.8466E+05	  2.6857E+06	  1.8777E+08	  8.0944E+05	  1.5306E+05	  6.0003E+05	  1.4437E+04	  3.4730E+06	  4.8982E+08	  6.7678E+03	1.000
-2012	  3.9080E+05	  3.9386E+05	  2.7535E+06	  1.9300E+08	  8.2838E+05	  1.5512E+05	  6.1236E+05	  1.4765E+04	  3.5702E+06	  4.9803E+08	  6.8426E+03	0.991
+2012	  3.9086E+05	  3.9392E+05	  2.7543E+06	  1.9300E+08	  8.2852E+05	  1.5513E+05	  6.1250E+05	  1.4768E+04	  3.5703E+06	  4.9779E+08	  6.8385E+03	0.991
 2013	  3.9227E+05	  3.9551E+05	  2.7294E+06	  1.9934E+08	  8.2679E+05	  1.5367E+05	  6.0408E+05	  1.4723E+04	  3.6697E+06	  5.2062E+08	  7.1889E+03	0.997
-2014	  3.9713E+05	  4.0018E+05	  2.8148E+06	  1.9515E+08	  8.4364E+05	  1.5775E+05	  6.2546E+05	  1.5030E+04	  3.6082E+06	  5.1146E+08	  7.0763E+03	0.997
+2014	  3.9714E+05	  4.0019E+05	  2.8150E+06	  1.9516E+08	  8.4367E+05	  1.5776E+05	  6.2549E+05	  1.5031E+04	  3.6083E+06	  5.1140E+08	  7.0753E+03	0.997
 2015	  3.8790E+05	  3.9108E+05	  2.7013E+06	  2.0035E+08	  8.1628E+05	  1.4902E+05	  5.9260E+05	  1.4504E+04	  3.6759E+06	  5.2909E+08	  7.3333E+03	1.000
 2016	  3.8149E+05	  3.8414E+05	  2.7372E+06	  1.8875E+08	  8.1183E+05	  1.4739E+05	  6.0245E+05	  1.4403E+04	  3.4871E+06	  4.8154E+08	  6.5550E+03	1.000
 2017	  3.7900E+05	  3.8220E+05	  2.6759E+06	  1.8877E+08	  8.0400E+05	  1.4956E+05	  5.9298E+05	  1.4325E+04	  3.4833E+06	  5.0034E+08	  6.9193E+03	0.995
-2018	  4.2129E+05	  4.2483E+05	  2.9652E+06	  2.0131E+08	  8.9685E+05	  1.7303E+05	  6.6850E+05	  1.6065E+04	  3.7467E+06	  5.2150E+08	  7.1722E+03	0.960
-2019	  3.7438E+05	  3.7754E+05	  2.6376E+06	  1.8625E+08	  7.9362E+05	  1.4731E+05	  5.8358E+05	  1.4140E+04	  3.4428E+06	  4.8596E+08	  6.6989E+03	0.976
+2018	  4.2126E+05	  4.2481E+05	  2.9672E+06	  2.0130E+08	  8.9688E+05	  1.7294E+05	  6.6858E+05	  1.6067E+04	  3.7461E+06	  5.2028E+08	  7.1520E+03	0.960
+2019	  3.7426E+05	  3.7741E+05	  2.6379E+06	  1.8614E+08	  7.9344E+05	  1.4726E+05	  5.8354E+05	  1.4138E+04	  3.4407E+06	  4.8524E+08	  6.6876E+03	0.976
+2020	  4.4328E+05	  4.4683E+05	  3.1955E+06	  2.1243E+08	  9.4972E+05	  1.7974E+05	  7.1597E+05	  1.6907E+04	  3.9436E+06	  5.6888E+08	  7.8832E+03	0.988
+2021	  4.1030E+05	  4.1355E+05	  2.9736E+06	  2.0130E+08	  8.7865E+05	  1.6254E+05	  6.6074E+05	  1.5558E+04	  3.7272E+06	  5.3849E+08	  7.4687E+03	0.997
