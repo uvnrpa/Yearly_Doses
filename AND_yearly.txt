@@ -18,7 +18,7 @@
 % PAR: Photosynthetic active radiation, 400-700 nm
 % Gaps in measurements have been filled with ancillary measurement data (Finse), or clear sky modelled data, adjusted for cloud influence. Source of UV-cloud modification factors: Listed below for the respective station and period
 % STRÅNG-based data (http://strang.smhi.se/extraction/index.php) period: 1901	
-% Octa-based data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/, period: 2013	
+% Octa-based data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/, period: 1997	2013	
 % Solar Light SL-501 UV-Biometer measurements (Finse only), from an instrument operated by DSA, period: 1900	- 1900
 % Pyranometer-based gapfilling for stations Landvik, Kise, Trondheim (Kvithamar), Tromsø (Holt), Andøya (Sortland), Blindern (Aas): Pyranometer data provided by Agrometeorology Norway (LMT), http://lmt.bioforsk.no. Period: 1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2014	2015	2016	2017	2018	2019	2020	2021	
 % Pyranometer-based gapfilling for station Bergen, period 1995-2021: Pyranometer data from the Radiation Observatory at the University of Bergen and clear sky modelled global radiation for all stations is provided by Jan-Asle Olseth (Jan.Olseth@uib.no).
@@ -28,10 +28,10 @@
 % Pyranometer-based gapfilling for station Ny-Ålesund, period 1995-2021: (1): Maturilli, Marion; Herber, Andreas; König-Langlo, Gert (2014): Basic and other measurements of radiation from the Baseline Surface Radiation Network (BSRN) Station Ny-Ålesund in the years 1992 to 2013, reference list of 253 datasets. PANGAEA, https://doi.org/10.1594/PANGAEA.150000. (2): Maturilli, Marion (2020): Basic and other measurements of radiation at station Ny-Ålesund (2006-05 et seq). Alfred Wegener Institute - Research Unit Potsdam, PANGAEA, https://doi.org/10.1594/PANGAEA.914927
 % Seasonally mean period: 2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	
 %
-% Columns: Year	Mon	Day	Daynum	Hour	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
+% Columns: Year	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
 1995	  2.2601E+05	  2.2828E+05	  1.4472E+06	  1.4478E+08	  4.5507E+05	  7.1801E+04	  2.9686E+05	  7.9219E+03	  2.5781E+06	  3.9767E+08	  5.5571E+03	0.000
 1996	  2.4220E+05	  2.4456E+05	  1.5753E+06	  1.4998E+08	  4.9160E+05	  7.9542E+04	  3.2705E+05	  8.5834E+03	  2.6825E+06	  4.1180E+08	  5.7566E+03	0.000
-1997	  2.8659E+05	  2.8917E+05	  1.9199E+06	  1.6489E+08	  5.9099E+05	  1.0071E+05	  4.0833E+05	  1.0385E+04	  2.9786E+06	  4.5270E+08	  6.3344E+03	0.000
+1997	  2.4741E+05	  2.4966E+05	  1.6483E+06	  1.4361E+08	  5.0915E+05	  8.6711E+04	  3.5079E+05	  8.9409E+03	  2.5914E+06	  3.9404E+08	  5.5120E+03	0.000
 1998	  2.4769E+05	  2.5013E+05	  1.5971E+06	  1.5566E+08	  5.0082E+05	  8.0507E+04	  3.3046E+05	  8.7372E+03	  2.7784E+06	  4.2731E+08	  5.9709E+03	0.000
 1999	  2.3243E+05	  2.3471E+05	  1.4979E+06	  1.4567E+08	  4.7028E+05	  7.6212E+04	  3.1155E+05	  8.2048E+03	  2.6012E+06	  4.0001E+08	  5.5899E+03	0.000
 2000	  2.4468E+05	  2.4691E+05	  1.6615E+06	  1.3991E+08	  5.0487E+05	  8.4267E+04	  3.4823E+05	  8.9760E+03	  2.5403E+06	  3.4838E+08	  4.6796E+03	0.688

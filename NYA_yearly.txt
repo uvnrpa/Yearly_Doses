@@ -28,7 +28,7 @@
 % Pyranometer-based gapfilling for station Ny-Ålesund, period 1995-2021: (1): Maturilli, Marion; Herber, Andreas; König-Langlo, Gert (2014): Basic and other measurements of radiation from the Baseline Surface Radiation Network (BSRN) Station Ny-Ålesund in the years 1992 to 2013, reference list of 253 datasets. PANGAEA, https://doi.org/10.1594/PANGAEA.150000. (2): Maturilli, Marion (2020): Basic and other measurements of radiation at station Ny-Ålesund (2006-05 et seq). Alfred Wegener Institute - Research Unit Potsdam, PANGAEA, https://doi.org/10.1594/PANGAEA.914927
 % Seasonally mean period: 1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	
 %
-% Columns: Year	Mon	Day	Daynum	Hour	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
+% Columns: Year	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
 1995	  2.0460E+05	  2.0736E+05	  1.2357E+06	  1.4583E+08	  3.9975E+05	  5.8070E+04	  2.4214E+05	  6.9502E+03	  2.5658E+06	  3.7134E+08	  4.9887E+03	0.497
 1996	  2.1573E+05	  2.1875E+05	  1.3315E+06	  1.5285E+08	  4.2402E+05	  6.0418E+04	  2.6010E+05	  7.3586E+03	  2.6837E+06	  3.8602E+08	  5.1623E+03	0.975
 1997	  2.1497E+05	  2.1776E+05	  1.3360E+06	  1.4809E+08	  4.2442E+05	  6.1917E+04	  2.6313E+05	  7.3858E+03	  2.6172E+06	  3.7391E+08	  5.0142E+03	0.958
