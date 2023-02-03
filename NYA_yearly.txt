@@ -2,7 +2,7 @@
 % The station is drifted by NILU - Norwegian Institute for Air Research (email: tove.svendby@nilu.no)
 % All units except PAR: J/m^2. Units PAR: mol/m^2
 % Calculations and calibrations: Bjørn Johnsen, Norwegian Authority of Radiation and Nuclear Safety
-% E-mail: Bjorn.Johnsen@dsa.no
+% E-mail: Bjorn.Johnsen@dsa.no	Date of processing: 03-Feb-2023 11:14:30
 %
 % Actionspectra:
 % CIE1987: Erythema action spectrum: A.F. McKinlay, A.F. and B.L. Diffey, A reference action spectrum for ultraviolet induced erythema in human skin", CIE Research Note, 6(1), 17-22, 1987
@@ -17,42 +17,43 @@
 % HEP: A. Brun & B. Hamre. Proposed action spectrum for Hematopoetic porfyri, HEP
 % PAR: Photosynthetic active radiation, 400-700 nm
 % Gaps in measurements have been filled with ancillary measurement data (Finse), or clear sky modelled data, adjusted for cloud influence. Source of UV-cloud modification factors: Listed below for the respective station and period
-% STRÅNG-based data (http://strang.smhi.se/extraction/index.php) period: 1901	
-% Octa-based data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/, period: 1902	
-% Solar Light SL-501 UV-Biometer measurements (Finse only), from an instrument operated by DSA, period: 1900	- 1900
-% Pyranometer-based gapfilling for stations Landvik, Kise, Trondheim (Kvithamar), Tromsø (Holt), Andøya (Sortland), Blindern (Aas): Pyranometer data provided by Agrometeorology Norway (LMT), http://lmt.bioforsk.no. Period: 1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	2021	
-% Pyranometer-based gapfilling for station Bergen, period 1995-2021: Pyranometer data from the Radiation Observatory at the University of Bergen and clear sky modelled global radiation for all stations is provided by Jan-Asle Olseth (Jan.Olseth@uib.no).
+% STRÅNG-based data (http://strang.smhi.se/extraction/index.php) period: 	
+% Octa-based data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/, period: 	
+% Solar Light SL-501 UV-Biometer measurements (Finse only), from an instrument operated by DSA, period: 	
+% Pyranometer-based gapfilling for stations Landvik, Kise, Trondheim (Kvithamar), Tromsø (Holt), Andøya (Sortland), Blindern (Aas), Kjeller (Skjetten): Pyranometer data provided by Agrometeorology Norway (LMT), http://lmt.bioforsk.no. Period: 1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	2021	2022	
+% Pyranometer-based gapfilling for station Bergen, period 1995-now: Pyranometer data from the Radiation Observatory at the University of Bergen and clear sky modelled global radiation for all stations is provided by Jan-Asle Olseth (Jan.Olseth@uib.no). Data past 2014 downloaded from https://veret.gfi.uib.no/taarn
 %
-% Pyranometer-based gapfilling for the stations Trondheim (Gloshaugen), Blindern, period 2017-2021: Pyranometer data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/
-% Pyranometer-based gapfilling for station Finse, period 2018-2021: Pyranometer data from the Finse Eco-Hydrological Observatory, provided by Norbert Pirk (norbert.pirk@geo.uio.no)
-% Pyranometer-based gapfilling for station Ny-Ålesund, period 1995-2021: (1): Maturilli, Marion; Herber, Andreas; König-Langlo, Gert (2014): Basic and other measurements of radiation from the Baseline Surface Radiation Network (BSRN) Station Ny-Ålesund in the years 1992 to 2013, reference list of 253 datasets. PANGAEA, https://doi.org/10.1594/PANGAEA.150000. (2): Maturilli, Marion (2020): Basic and other measurements of radiation at station Ny-Ålesund (2006-05 et seq). Alfred Wegener Institute - Research Unit Potsdam, PANGAEA, https://doi.org/10.1594/PANGAEA.914927
+% Pyranometer-based gapfilling for the stations Trondheim (Gloshaugen), Blindern, period 2017-now: Pyranometer data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/
+% Pyranometer-based gapfilling for station Finse, period 2018-now: Pyranometer data from the Finse Eco-Hydrological Observatory, provided by Norbert Pirk (norbert.pirk@geo.uio.no)
+% Pyranometer-based gapfilling for station Ny-Ålesund, period 1995-now: (1): Maturilli, Marion; Herber, Andreas; König-Langlo, Gert (2014): Basic and other measurements of radiation from the Baseline Surface Radiation Network (BSRN) Station Ny-Ålesund in the years 1992 to 2013, reference list of 253 datasets. PANGAEA, https://doi.org/10.1594/PANGAEA.150000. (2): Maturilli, Marion (2020): Basic and other measurements of radiation at station Ny-Ålesund (2006-05 et seq). Alfred Wegener Institute - Research Unit Potsdam, PANGAEA, https://doi.org/10.1594/PANGAEA.914927
 % Seasonally mean period: 1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	
 %
 % Columns: Year	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
-1995	  2.0460E+05	  2.0736E+05	  1.2357E+06	  1.4583E+08	  3.9975E+05	  5.8070E+04	  2.4214E+05	  6.9502E+03	  2.5658E+06	  3.7134E+08	  4.9887E+03	0.497
-1996	  2.1573E+05	  2.1875E+05	  1.3315E+06	  1.5285E+08	  4.2402E+05	  6.0418E+04	  2.6010E+05	  7.3586E+03	  2.6837E+06	  3.8602E+08	  5.1623E+03	0.975
-1997	  2.1497E+05	  2.1776E+05	  1.3360E+06	  1.4809E+08	  4.2442E+05	  6.1917E+04	  2.6313E+05	  7.3858E+03	  2.6172E+06	  3.7391E+08	  5.0142E+03	0.958
-1998	  2.1738E+05	  2.2054E+05	  1.2712E+06	  1.6136E+08	  4.1935E+05	  5.9406E+04	  2.4649E+05	  7.2690E+03	  2.8239E+06	  4.0801E+08	  5.4458E+03	0.824
-1999	  1.8421E+05	  1.8719E+05	  1.0849E+06	  1.3943E+08	  3.5606E+05	  5.0138E+04	  2.1152E+05	  6.1520E+03	  2.4206E+06	  3.5497E+08	  4.7397E+03	0.896
-2000	  2.3181E+05	  2.3481E+05	  1.4151E+06	  1.6378E+08	  4.5545E+05	  6.7447E+04	  2.8143E+05	  7.9021E+03	  2.8739E+06	  4.3414E+08	  5.9513E+03	0.689
-2001	  2.1127E+05	  2.1428E+05	  1.2770E+06	  1.5355E+08	  4.1217E+05	  5.8499E+04	  2.4898E+05	  7.1397E+03	  2.6855E+06	  3.9443E+08	  5.3121E+03	0.842
-2002	  2.1488E+05	  2.1783E+05	  1.3116E+06	  1.5406E+08	  4.2085E+05	  6.0112E+04	  2.5654E+05	  7.2926E+03	  2.7001E+06	  3.9811E+08	  5.3853E+03	0.967
-2003	  1.8432E+05	  1.8744E+05	  1.0843E+06	  1.4446E+08	  3.5592E+05	  4.9940E+04	  2.1283E+05	  6.1066E+03	  2.4756E+06	  3.8994E+08	  5.3393E+03	0.993
-2004	  2.0165E+05	  2.0423E+05	  1.1937E+06	  1.4518E+08	  3.9114E+05	  5.6335E+04	  2.3260E+05	  6.7916E+03	  2.5587E+06	  3.7306E+08	  5.0403E+03	0.958
-2005	  2.1001E+05	  2.1271E+05	  1.2595E+06	  1.4747E+08	  4.1012E+05	  6.0696E+04	  2.4807E+05	  7.1542E+03	  2.6057E+06	  3.7327E+08	  5.0003E+03	0.702
-2006	  1.8437E+05	  1.8691E+05	  1.0989E+06	  1.3374E+08	  3.5807E+05	  5.0883E+04	  2.1344E+05	  6.2117E+03	  2.3503E+06	  3.3929E+08	  4.5480E+03	0.956
-2007	  2.1874E+05	  2.2124E+05	  1.3219E+06	  1.5291E+08	  4.2778E+05	  6.2483E+04	  2.5920E+05	  7.4352E+03	  2.7059E+06	  4.0175E+08	  5.5046E+03	0.993
-2008	  2.1045E+05	  2.1305E+05	  1.2587E+06	  1.4982E+08	  4.1001E+05	  5.9578E+04	  2.4668E+05	  7.1185E+03	  2.6415E+06	  3.9034E+08	  5.3157E+03	0.968
-2009	  2.3037E+05	  2.3332E+05	  1.3864E+06	  1.6096E+08	  4.5039E+05	  6.6411E+04	  2.7336E+05	  7.8517E+03	  2.8484E+06	  4.0490E+08	  5.4167E+03	0.841
-2010	  2.0141E+05	  2.0423E+05	  1.1631E+06	  1.5051E+08	  3.8667E+05	  5.4225E+04	  2.2391E+05	  6.6973E+03	  2.6388E+06	  3.8309E+08	  5.1370E+03	0.999
-2011	  2.1706E+05	  2.1974E+05	  1.3284E+06	  1.4868E+08	  4.2664E+05	  6.2889E+04	  2.6168E+05	  7.4457E+03	  2.6402E+06	  3.7054E+08	  4.9413E+03	0.985
-2012	  2.1245E+05	  2.1508E+05	  1.2699E+06	  1.4881E+08	  4.1413E+05	  6.0822E+04	  2.4921E+05	  7.2204E+03	  2.6371E+06	  3.7471E+08	  5.0191E+03	0.997
-2013	  1.7941E+05	  1.8182E+05	  1.0384E+06	  1.3122E+08	  3.4545E+05	  4.9706E+04	  2.0187E+05	  6.0025E+03	  2.3127E+06	  3.3085E+08	  4.4234E+03	0.821
-2014	  2.1261E+05	  2.1543E+05	  1.2827E+06	  1.4930E+08	  4.1554E+05	  6.0645E+04	  2.5174E+05	  7.2418E+03	  2.6391E+06	  3.7121E+08	  4.9338E+03	0.842
-2015	  2.1481E+05	  2.1750E+05	  1.2729E+06	  1.5287E+08	  4.1739E+05	  6.1189E+04	  2.4973E+05	  7.2656E+03	  2.6988E+06	  3.9237E+08	  5.3000E+03	0.978
-2016	  1.8974E+05	  1.9245E+05	  1.1632E+06	  1.3580E+08	  3.7208E+05	  5.2931E+04	  2.2729E+05	  6.4529E+03	  2.3801E+06	  3.4392E+08	  4.6032E+03	0.996
-2017	  2.0718E+05	  2.0994E+05	  1.2574E+06	  1.4509E+08	  4.0559E+05	  5.8880E+04	  2.4642E+05	  7.0669E+03	  2.5650E+06	  3.5919E+08	  4.7634E+03	0.992
-2018	  1.8434E+05	  1.8681E+05	  1.0867E+06	  1.3140E+08	  3.5724E+05	  5.1589E+04	  2.1156E+05	  6.2273E+03	  2.3273E+06	  3.2072E+08	  4.2220E+03	0.997
-2019	  2.0357E+05	  2.0623E+05	  1.1996E+06	  1.4716E+08	  3.9392E+05	  5.6133E+04	  2.3226E+05	  6.8453E+03	  2.5941E+06	  3.7181E+08	  4.9777E+03	0.968
-2020	  2.1240E+05	  2.1467E+05	  1.3337E+06	  1.3855E+08	  4.2238E+05	  6.3998E+04	  2.6608E+05	  7.3879E+03	  2.4814E+06	  3.5117E+08	  4.7502E+03	0.992
-2021	  2.1137E+05	  2.1398E+05	  1.2953E+06	  1.4709E+08	  4.1490E+05	  5.9867E+04	  2.5303E+05	  7.2179E+03	  2.6008E+06	  3.7526E+08	  5.0623E+03	0.995
+1995	  2.0456E+05	  2.0732E+05	  1.2354E+06	  1.4581E+08	  3.9967E+05	  5.8050E+04	  2.4208E+05	  6.9487E+03	  2.5654E+06	  3.7123E+08	  4.9868E+03	0.659
+1996	  2.1568E+05	  2.1870E+05	  1.3313E+06	  1.5280E+08	  4.2392E+05	  6.0405E+04	  2.6005E+05	  7.3571E+03	  2.6830E+06	  3.8584E+08	  5.1593E+03	0.986
+1997	  2.1493E+05	  2.1772E+05	  1.3357E+06	  1.4806E+08	  4.2433E+05	  6.1896E+04	  2.6307E+05	  7.3842E+03	  2.6167E+06	  3.7377E+08	  5.0118E+03	0.977
+1998	  2.1735E+05	  2.2051E+05	  1.2710E+06	  1.6133E+08	  4.1928E+05	  5.9389E+04	  2.4644E+05	  7.2678E+03	  2.8235E+06	  4.0789E+08	  5.4437E+03	0.962
+1999	  1.8418E+05	  1.8716E+05	  1.0847E+06	  1.3941E+08	  3.5600E+05	  5.0124E+04	  2.1148E+05	  6.1510E+03	  2.4203E+06	  3.5487E+08	  4.7381E+03	0.896
+2000	  2.1820E+05	  2.2137E+05	  1.3348E+06	  1.5599E+08	  4.2796E+05	  6.1570E+04	  2.6224E+05	  7.4272E+03	  2.7331E+06	  3.9330E+08	  5.2465E+03	0.692
+2001	  2.1125E+05	  2.1426E+05	  1.2769E+06	  1.5354E+08	  4.1213E+05	  5.8489E+04	  2.4895E+05	  7.1390E+03	  2.6853E+06	  3.9437E+08	  5.3110E+03	0.842
+2002	  2.1487E+05	  2.1781E+05	  1.3115E+06	  1.5405E+08	  4.2082E+05	  6.0106E+04	  2.5652E+05	  7.2922E+03	  2.6999E+06	  3.9808E+08	  5.3847E+03	0.968
+2003	  1.7937E+05	  1.8257E+05	  1.0591E+06	  1.4074E+08	  3.4656E+05	  4.8209E+04	  2.0728E+05	  5.9515E+03	  2.4109E+06	  3.7073E+08	  5.0105E+03	0.994
+2004	  2.0164E+05	  2.0423E+05	  1.1937E+06	  1.4518E+08	  3.9114E+05	  5.6335E+04	  2.3260E+05	  6.7916E+03	  2.5587E+06	  3.7306E+08	  5.0402E+03	0.958
+2005	  2.0756E+05	  2.1029E+05	  1.2443E+06	  1.4628E+08	  4.0503E+05	  5.9518E+04	  2.4428E+05	  7.0645E+03	  2.5836E+06	  3.6704E+08	  4.8923E+03	0.702
+2006	  1.8437E+05	  1.8691E+05	  1.0989E+06	  1.3374E+08	  3.5807E+05	  5.0883E+04	  2.1345E+05	  6.2117E+03	  2.3502E+06	  3.3928E+08	  4.5479E+03	0.956
+2007	  2.1874E+05	  2.2124E+05	  1.3219E+06	  1.5291E+08	  4.2778E+05	  6.2484E+04	  2.5919E+05	  7.4352E+03	  2.7059E+06	  4.0175E+08	  5.5046E+03	0.993
+2008	  2.1040E+05	  2.1300E+05	  1.2582E+06	  1.4981E+08	  4.0988E+05	  5.9549E+04	  2.4655E+05	  7.1160E+03	  2.6414E+06	  3.9033E+08	  5.3155E+03	0.968
+2009	  2.3037E+05	  2.3332E+05	  1.3864E+06	  1.6096E+08	  4.5040E+05	  6.6412E+04	  2.7336E+05	  7.8518E+03	  2.8484E+06	  4.0490E+08	  5.4166E+03	0.841
+2010	  2.0141E+05	  2.0422E+05	  1.1631E+06	  1.5051E+08	  3.8667E+05	  5.4225E+04	  2.2391E+05	  6.6973E+03	  2.6388E+06	  3.8309E+08	  5.1369E+03	1.000
+2011	  2.1706E+05	  2.1974E+05	  1.3285E+06	  1.4868E+08	  4.2664E+05	  6.2890E+04	  2.6169E+05	  7.4457E+03	  2.6402E+06	  3.7053E+08	  4.9411E+03	0.985
+2012	  2.1269E+05	  2.1531E+05	  1.2712E+06	  1.4893E+08	  4.1460E+05	  6.0937E+04	  2.4956E+05	  7.2288E+03	  2.6393E+06	  3.7536E+08	  5.0305E+03	0.997
+2013	  1.7962E+05	  1.8203E+05	  1.0396E+06	  1.3134E+08	  3.4587E+05	  4.9803E+04	  2.0217E+05	  6.0098E+03	  2.3149E+06	  3.3148E+08	  4.4344E+03	0.822
+2014	  2.1290E+05	  2.1571E+05	  1.2844E+06	  1.4946E+08	  4.1612E+05	  6.0780E+04	  2.5217E+05	  7.2521E+03	  2.6420E+06	  3.7203E+08	  4.9479E+03	0.842
+2015	  2.1502E+05	  2.1770E+05	  1.2736E+06	  1.5304E+08	  4.1776E+05	  6.1275E+04	  2.4993E+05	  7.2717E+03	  2.7017E+06	  3.9325E+08	  5.3152E+03	0.979
+2016	  1.9002E+05	  1.9273E+05	  1.1648E+06	  1.3596E+08	  3.7265E+05	  5.3053E+04	  2.2769E+05	  6.4627E+03	  2.3830E+06	  3.4476E+08	  4.6177E+03	0.996
+2017	  2.0749E+05	  2.1025E+05	  1.2592E+06	  1.4526E+08	  4.0621E+05	  5.9022E+04	  2.4686E+05	  7.0777E+03	  2.5681E+06	  3.6008E+08	  4.7788E+03	0.992
+2018	  1.8434E+05	  1.8681E+05	  1.0867E+06	  1.3140E+08	  3.5724E+05	  5.1590E+04	  2.1156E+05	  6.2273E+03	  2.3273E+06	  3.2072E+08	  4.2220E+03	0.997
+2019	  2.0348E+05	  2.0616E+05	  1.1994E+06	  1.4710E+08	  3.9377E+05	  5.6105E+04	  2.3225E+05	  6.8439E+03	  2.5928E+06	  3.7022E+08	  4.9456E+03	0.969
+2020	  2.1245E+05	  2.1473E+05	  1.3348E+06	  1.3865E+08	  4.2253E+05	  6.3963E+04	  2.6622E+05	  7.3896E+03	  2.4826E+06	  3.5162E+08	  4.7574E+03	0.992
+2021	  2.1301E+05	  2.1565E+05	  1.3034E+06	  1.4838E+08	  4.1792E+05	  6.0344E+04	  2.5465E+05	  7.2713E+03	  2.6235E+06	  3.7793E+08	  5.0932E+03	0.996
+2022	  2.0071E+05	  2.0324E+05	  1.2236E+06	  1.4062E+08	  3.9399E+05	  5.8028E+04	  2.4199E+05	  6.8474E+03	  2.4784E+06	  3.6618E+08	  4.9849E+03	0.994
