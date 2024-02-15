@@ -2,7 +2,7 @@
 % The station is drifted by NILU - Norwegian Institute for Air Research (email: tove.svendby@nilu.no)
 % All units except PAR: J/m^2. Units PAR: mol/m^2
 % Calculations and calibrations: Bjørn Johnsen, Norwegian Authority of Radiation and Nuclear Safety
-% E-mail: Bjorn.Johnsen@dsa.no	Date of processing: 03-Feb-2023 11:14:30
+% E-mail: Bjorn.Johnsen@dsa.no	Date of processing: 15-Feb-2024 12:00:45
 %
 % Actionspectra:
 % CIE1987: Erythema action spectrum: A.F. McKinlay, A.F. and B.L. Diffey, A reference action spectrum for ultraviolet induced erythema in human skin", CIE Research Note, 6(1), 17-22, 1987
@@ -20,7 +20,7 @@
 % STRÅNG-based data (http://strang.smhi.se/extraction/index.php) period: 	
 % Octa-based data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/, period: 	
 % Solar Light SL-501 UV-Biometer measurements (Finse only), from an instrument operated by DSA, period: 	
-% Pyranometer-based gapfilling for stations Landvik, Kise, Trondheim (Kvithamar), Tromsø (Holt), Andøya (Sortland), Blindern (Aas), Kjeller (Skjetten): Pyranometer data provided by Agrometeorology Norway (LMT), http://lmt.bioforsk.no. Period: 1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	2021	2022	
+% Pyranometer-based gapfilling for stations Landvik, Kise, Trondheim (Kvithamar), Tromsø (Holt), Andøya (Sortland), Blindern (Aas), Kjeller (Skjetten): Pyranometer data provided by Agrometeorology Norway (LMT), http://lmt.bioforsk.no. Period: 1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	2021	2022	2023	
 % Pyranometer-based gapfilling for station Bergen, period 1995-now: Pyranometer data from the Radiation Observatory at the University of Bergen and clear sky modelled global radiation for all stations is provided by Jan-Asle Olseth (Jan.Olseth@uib.no). Data past 2014 downloaded from https://veret.gfi.uib.no/taarn
 %
 % Pyranometer-based gapfilling for the stations Trondheim (Gloshaugen), Blindern, period 2017-now: Pyranometer data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/
@@ -29,7 +29,7 @@
 % Seasonally mean period: 1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	
 %
 % Columns: Year	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
-1995	  2.0456E+05	  2.0732E+05	  1.2354E+06	  1.4581E+08	  3.9967E+05	  5.8050E+04	  2.4208E+05	  6.9487E+03	  2.5654E+06	  3.7123E+08	  4.9868E+03	0.659
+1995	  2.1531E+05	  2.1809E+05	  1.3409E+06	  1.4577E+08	  4.2541E+05	  6.3944E+04	  2.6641E+05	  7.4443E+03	  2.5794E+06	  3.7127E+08	  4.9921E+03	0.659
 1996	  2.1568E+05	  2.1870E+05	  1.3313E+06	  1.5280E+08	  4.2392E+05	  6.0405E+04	  2.6005E+05	  7.3571E+03	  2.6830E+06	  3.8584E+08	  5.1593E+03	0.986
 1997	  2.1493E+05	  2.1772E+05	  1.3357E+06	  1.4806E+08	  4.2433E+05	  6.1896E+04	  2.6307E+05	  7.3842E+03	  2.6167E+06	  3.7377E+08	  5.0118E+03	0.977
 1998	  2.1735E+05	  2.2051E+05	  1.2710E+06	  1.6133E+08	  4.1928E+05	  5.9389E+04	  2.4644E+05	  7.2678E+03	  2.8235E+06	  4.0789E+08	  5.4437E+03	0.962
@@ -37,7 +37,7 @@
 2000	  2.1820E+05	  2.2137E+05	  1.3348E+06	  1.5599E+08	  4.2796E+05	  6.1570E+04	  2.6224E+05	  7.4272E+03	  2.7331E+06	  3.9330E+08	  5.2465E+03	0.692
 2001	  2.1125E+05	  2.1426E+05	  1.2769E+06	  1.5354E+08	  4.1213E+05	  5.8489E+04	  2.4895E+05	  7.1390E+03	  2.6853E+06	  3.9437E+08	  5.3110E+03	0.842
 2002	  2.1487E+05	  2.1781E+05	  1.3115E+06	  1.5405E+08	  4.2082E+05	  6.0106E+04	  2.5652E+05	  7.2922E+03	  2.6999E+06	  3.9808E+08	  5.3847E+03	0.968
-2003	  1.7937E+05	  1.8257E+05	  1.0591E+06	  1.4074E+08	  3.4656E+05	  4.8209E+04	  2.0728E+05	  5.9515E+03	  2.4109E+06	  3.7073E+08	  5.0105E+03	0.994
+2003	  1.9264E+05	  1.9585E+05	  1.1371E+06	  1.4747E+08	  3.7235E+05	  5.1976E+04	  2.2151E+05	  6.4197E+03	  2.5494E+06	  3.7906E+08	  5.0778E+03	0.994
 2004	  2.0164E+05	  2.0423E+05	  1.1937E+06	  1.4518E+08	  3.9114E+05	  5.6335E+04	  2.3260E+05	  6.7916E+03	  2.5587E+06	  3.7306E+08	  5.0402E+03	0.958
 2005	  2.0756E+05	  2.1029E+05	  1.2443E+06	  1.4628E+08	  4.0503E+05	  5.9518E+04	  2.4428E+05	  7.0645E+03	  2.5836E+06	  3.6704E+08	  4.8923E+03	0.702
 2006	  1.8437E+05	  1.8691E+05	  1.0989E+06	  1.3374E+08	  3.5807E+05	  5.0883E+04	  2.1345E+05	  6.2117E+03	  2.3502E+06	  3.3928E+08	  4.5479E+03	0.956
@@ -57,3 +57,4 @@
 2020	  2.1245E+05	  2.1473E+05	  1.3348E+06	  1.3865E+08	  4.2253E+05	  6.3963E+04	  2.6622E+05	  7.3896E+03	  2.4826E+06	  3.5162E+08	  4.7574E+03	0.992
 2021	  2.1301E+05	  2.1565E+05	  1.3034E+06	  1.4838E+08	  4.1792E+05	  6.0344E+04	  2.5465E+05	  7.2713E+03	  2.6235E+06	  3.7793E+08	  5.0932E+03	0.996
 2022	  2.0071E+05	  2.0324E+05	  1.2236E+06	  1.4062E+08	  3.9399E+05	  5.8028E+04	  2.4199E+05	  6.8474E+03	  2.4784E+06	  3.6618E+08	  4.9849E+03	0.994
+2023	  2.0927E+05	  2.1201E+05	  1.2919E+06	  1.4557E+08	  4.1226E+05	  6.0208E+04	  2.5479E+05	  7.1693E+03	  2.5662E+06	  3.7182E+08	  5.0110E+03	0.999

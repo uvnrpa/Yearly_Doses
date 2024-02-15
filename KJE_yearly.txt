@@ -2,7 +2,7 @@
 % The station is drifted by NILU - Norwegian Institute for Air Research (email: tove.svendby@nilu.no)
 % All units except PAR: J/m^2. Units PAR: mol/m^2
 % Calculations and calibrations: Bjørn Johnsen, Norwegian Authority of Radiation and Nuclear Safety
-% E-mail: Bjorn.Johnsen@dsa.no	Date of processing: 03-Feb-2023 11:16:05
+% E-mail: Bjorn.Johnsen@dsa.no	Date of processing: 15-Feb-2024 12:02:26
 %
 % Actionspectra:
 % CIE1987: Erythema action spectrum: A.F. McKinlay, A.F. and B.L. Diffey, A reference action spectrum for ultraviolet induced erythema in human skin", CIE Research Note, 6(1), 17-22, 1987
@@ -20,7 +20,7 @@
 % STRÅNG-based data (http://strang.smhi.se/extraction/index.php) period: 	
 % Octa-based data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/, period: 	
 % Solar Light SL-501 UV-Biometer measurements (Finse only), from an instrument operated by DSA, period: 	
-% Pyranometer-based gapfilling for stations Landvik, Kise, Trondheim (Kvithamar), Tromsø (Holt), Andøya (Sortland), Blindern (Aas), Kjeller (Skjetten): Pyranometer data provided by Agrometeorology Norway (LMT), http://lmt.bioforsk.no. Period: 2019	2020	2021	2022	
+% Pyranometer-based gapfilling for stations Landvik, Kise, Trondheim (Kvithamar), Tromsø (Holt), Andøya (Sortland), Blindern (Aas), Kjeller (Skjetten): Pyranometer data provided by Agrometeorology Norway (LMT), http://lmt.bioforsk.no. Period: 2019	2020	2021	2022	2023	
 % Pyranometer-based gapfilling for station Bergen, period 1995-now: Pyranometer data from the Radiation Observatory at the University of Bergen and clear sky modelled global radiation for all stations is provided by Jan-Asle Olseth (Jan.Olseth@uib.no). Data past 2014 downloaded from https://veret.gfi.uib.no/taarn
 %
 % Pyranometer-based gapfilling for the stations Trondheim (Gloshaugen), Blindern, period 2017-now: Pyranometer data from the Norwegian Centre for Climate Services, https://seklima.met.no/observations/
@@ -33,3 +33,4 @@
 2020	  4.0234E+05	  4.0536E+05	  2.8123E+06	  1.9638E+08	  8.5598E+05	  1.6206E+05	  6.3230E+05	  1.5265E+04	  3.6339E+06	  5.2717E+08	  7.3495E+03	0.995
 2021	  3.9208E+05	  3.9533E+05	  2.7300E+06	  1.9533E+08	  8.2941E+05	  1.5622E+05	  6.1027E+05	  1.4835E+04	  3.6099E+06	  5.0875E+08	  6.9871E+03	0.997
 2022	  4.0393E+05	  4.0734E+05	  2.8183E+06	  2.0175E+08	  8.5348E+05	  1.6065E+05	  6.2871E+05	  1.5281E+04	  3.7285E+06	  5.2175E+08	  7.1404E+03	0.997
+2023	  3.9377E+05	  3.9707E+05	  2.7310E+06	  1.9899E+08	  8.3081E+05	  1.5419E+05	  6.0613E+05	  1.4846E+04	  3.6714E+06	  5.1645E+08	  7.0780E+03	0.995
