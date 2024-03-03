@@ -2,7 +2,7 @@
 % UV-measurement terminated in end of 1999, and instrument moved to ALOMAR (Andoya). The station was drifted by NILU - Norwegian Institute for Air Research (email: tove.svendby@nilu.no)
 % All units except PAR: J/m^2. Units PAR: mol/m^2
 % Calculations and calibrations: Bjørn Johnsen, Norwegian Authority of Radiation and Nuclear Safety
-% E-mail: Bjorn.Johnsen@dsa.no	Date of processing: 15-Feb-2024 12:00:03
+% E-mail: Bjorn.Johnsen@dsa.no	Date of processing: 02-Mar-2024 14:01:40
 %
 % Actionspectra:
 % CIE1987: Erythema action spectrum: A.F. McKinlay, A.F. and B.L. Diffey, A reference action spectrum for ultraviolet induced erythema in human skin", CIE Research Note, 6(1), 17-22, 1987
@@ -29,11 +29,11 @@
 % Seasonally mean period: 1996	1997	1998	1999	
 %
 % Columns: Year	CIE1987	CIE1998	UVB	UVA	NMSC	DNA	VITD	ANCHOVY	FLINTPLANT	HEP	PAR	Fraction [rel. units]
-1995	  2.2690E+05	  2.2910E+05	  1.4857E+06	  1.3975E+08	  4.6096E+05	  7.4157E+04	  3.0757E+05	  8.0709E+03	  2.5071E+06	  3.7208E+08	  5.1404E+03	0.482
-1996	  2.6999E+05	  2.7246E+05	  1.8358E+06	  1.5590E+08	  5.5626E+05	  9.1258E+04	  3.8160E+05	  9.8688E+03	  2.8263E+06	  3.9001E+08	  5.2468E+03	0.930
-1997	  2.7914E+05	  2.8162E+05	  1.9087E+06	  1.5637E+08	  5.7778E+05	  9.7716E+04	  4.0262E+05	  1.0290E+04	  2.8489E+06	  3.8506E+08	  5.1489E+03	0.968
-1998	  2.5954E+05	  2.6205E+05	  1.7027E+06	  1.5890E+08	  5.2728E+05	  8.5628E+04	  3.5256E+05	  9.3330E+03	  2.8506E+06	  4.0364E+08	  5.4553E+03	0.865
-1999	  2.2783E+05	  2.3004E+05	  1.4943E+06	  1.3959E+08	  4.6353E+05	  7.5233E+04	  3.0902E+05	  8.2258E+03	  2.5050E+06	  3.4998E+08	  4.6987E+03	0.902
+1995	  2.2690E+05	  2.2910E+05	  1.4857E+06	  1.3975E+08	  4.6096E+05	  7.4157E+04	  3.0757E+05	  8.0709E+03	  2.5071E+06	  3.7208E+08	  5.1404E+03	0.386
+1996	  2.6999E+05	  2.7246E+05	  1.8358E+06	  1.5590E+08	  5.5626E+05	  9.1258E+04	  3.8160E+05	  9.8688E+03	  2.8263E+06	  3.9001E+08	  5.2468E+03	0.917
+1997	  2.7914E+05	  2.8162E+05	  1.9087E+06	  1.5637E+08	  5.7778E+05	  9.7716E+04	  4.0262E+05	  1.0290E+04	  2.8489E+06	  3.8506E+08	  5.1489E+03	0.965
+1998	  2.5954E+05	  2.6205E+05	  1.7027E+06	  1.5890E+08	  5.2728E+05	  8.5628E+04	  3.5256E+05	  9.3330E+03	  2.8506E+06	  4.0364E+08	  5.4553E+03	0.840
+1999	  2.2783E+05	  2.3004E+05	  1.4943E+06	  1.3959E+08	  4.6353E+05	  7.5233E+04	  3.0902E+05	  8.2258E+03	  2.5050E+06	  3.4998E+08	  4.6987E+03	0.961
 2000	  2.5827E+05	  2.6064E+05	  1.7164E+06	  1.5187E+08	  5.3018E+05	  8.8905E+04	  3.6227E+05	  9.2992E+03	  2.7353E+06	  4.1714E+08	  5.8365E+03	0.000
 2001	  2.5031E+05	  2.5272E+05	  1.6293E+06	  1.5381E+08	  5.0886E+05	  8.3437E+04	  3.4077E+05	  8.8917E+03	  2.7537E+06	  4.2251E+08	  5.9063E+03	0.000
 2002	  2.7860E+05	  2.8116E+05	  1.8533E+06	  1.6377E+08	  5.7212E+05	  9.5971E+04	  3.9140E+05	  1.0033E+04	  2.9493E+06	  4.4955E+08	  6.2874E+03	0.000
